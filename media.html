@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .food{
+            border: 1px solid red;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .food img{
+            width: 100%;
+        }
+
+        /* media query*/
+        @media screen and (max-width: 768px){
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media screen and (max-width: 576px){
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- .container>.food*12>img[src="images/food.avif"]+h3{food-item - $}+p{price: /$$00}+p>lorem20 -->
+    <div class="container">
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>food-item - 1</h3>
+            <p>price: /0100</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quidem aliquam molestias qui veniam eaque adipisci, temporibus dolor debitis ullam.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>food-item - 2</h3>
+            <p>price: /0200</p>
+            <p>Nisi illo magnam iste blanditiis, placeat sit repellat, ipsam laborum maxime nemo tenetur? Ex velit quia blanditiis, aliquam accusamus rem?</p>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>food-item - 3</h3>
+            <p>price: /0300</p>
+            <p>Debitis asperiores dolor placeat, eos voluptatem ab maiores. Excepturi pariatur labore ab neque quasi quibusdam? Sit aliquam adipisci laudantium doloremque?</p>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>food-item - 4</h3>
+            <p>price: /0400</p>
+            <p>Accusantium odit id architecto unde commodi dolore ipsam corporis a error, optio esse veritatis excepturi illo! Aliquam suscipit voluptatibus facere.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>food-item - 5</h3>
+            <p>price: /0500</p>
+            <p>Suscipit quam nemo aliquid totam dolorum, consequuntur ad quia placeat aliquam a earum natus saepe id ipsam, voluptas sequi animi.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>food-item - 6</h3>
+            <p>price: /0600</p>
+            <p>Corrupti at harum adipisci atque laborum id temporibus iusto neque itaque, alias repellendus nisi necessitatibus sed repudiandae, architecto dolorum deleniti?</p>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>food-item - 7</h3>
+            <p>price: /0700</p>
+            <p>Fugiat, repellat ducimus ea voluptate asperiores nemo, vitae distinctio beatae voluptas in, quos ex? Ullam iste doloremque aliquid temporibus perspiciatis.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>food-item - 8</h3>
+            <p>price: /0800</p>
+            <p>Dicta esse deserunt fugit officia praesentium explicabo provident ut placeat at suscipit, voluptatem alias nam blanditiis laboriosam possimus? Pariatur, earum?</p>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>food-item - 9</h3>
+            <p>price: /0900</p>
+            <p>Voluptates a autem praesentium soluta non totam iste, commodi voluptas eum. Cum libero iusto doloribus quam nulla beatae similique aperiam!</p>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>food-item - 10</h3>
+            <p>price: /1000</p>
+            <p>Nulla, at. In non inventore libero minus deserunt, vel veritatis nobis quos omnis laudantium modi quis similique dolorem ullam aliquam.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>food-item - 11</h3>
+            <p>price: /1100</p>
+            <p>Ex tenetur minus magnam corporis! Dolor rem temporibus enim aperiam quas aliquam tempore ipsam dolores, placeat nisi veniam, voluptatum fuga.</p>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>food-item - 12</h3>
+            <p>price: /1200</p>
+            <p>Ea quae nostrum consectetur sequi porro perferendis cupiditate architecto harum inventore omnis totam deleniti saepe soluta, numquam quaerat quidem est!</p>
+        </div>
+    </div>
+</body>
+</html>
