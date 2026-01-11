@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .food{
+            border: 1px solid blue;
+            padding: 10px;
+            border-radius: 10px;
+
+        }
+        .food img{
+            width: 100%;
+        }
+        /* medium device */
+       
+        @media screen and (min-width: 576px) and (max-width: 992px){
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* smaller device */
+        @media screen and (max-width: 576px){
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- .container>.food*12>img[src="images/food.avif"]+h3{Food item - $}+p{price- /$$00}+p>lorem^button{Buy now} -->
+    <div class="container">
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>Food item - 1</h3>
+            <p>price- /0100</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem velit porro distinctio, consequatur minus, doloremque ducimus maiores consectetur magnam dignissimos voluptatem. Praesentium ipsa illum similique accusamus ad qui atque rem.</p>
+            <button>Buy now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>Food item - 2</h3>
+            <p>price- /0200</p>
+            <p>Eos, distinctio. Alias ex possimus velit a quo debitis laudantium odit, tempore fuga necessitatibus facere laborum minima optio corrupti numquam quae eum veniam amet minus reiciendis similique incidunt! Similique, voluptas.</p>
+            <button>Buy now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>Food item - 3</h3>
+            <p>price- /0300</p>
+            <p>Accusantium, illum blanditiis deserunt qui ullam odio non voluptatibus modi maxime quibusdam expedita deleniti, rem quae aliquam magni. Quo dolor minima deserunt voluptatum aliquid laboriosam quaerat. Iure neque excepturi molestias.</p>
+            <button>Buy now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>Food item - 4</h3>
+            <p>price- /0400</p>
+            <p>Vel autem explicabo a minus tenetur, exercitationem esse. Optio amet, velit laborum ea ducimus suscipit facere laboriosam ex saepe, tempora asperiores quod error fuga dignissimos voluptatum, odit ipsa consequatur sit.</p>
+            <button>Buy now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>Food item - 5</h3>
+            <p>price- /0500</p>
+            <p>Facere, aspernatur consectetur expedita sit cumque quisquam, ab quis maiores in officiis sequi? Non sint porro optio labore vel dolorem, cupiditate sed ea aliquid rerum repudiandae harum saepe eius ut!</p>
+            <button>Buy now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>Food item - 6</h3>
+            <p>price- /0600</p>
+            <p>Dolore quos incidunt possimus voluptatibus consequatur atque a? Debitis, tenetur hic odit aut fugit quae aperiam adipisci consectetur praesentium atque, numquam, voluptatum quia expedita aliquid porro doloribus tempore libero sed.</p>
+            <button>Buy now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>Food item - 7</h3>
+            <p>price- /0700</p>
+            <p>Expedita iure cum vitae consequatur cumque, iste reiciendis quidem illo? Molestiae ut sequi, ipsum eius nulla atque maiores, et corporis, deserunt adipisci consectetur soluta assumenda vero blanditiis eligendi rem ea.</p>
+            <button>Buy now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>Food item - 8</h3>
+            <p>price- /0800</p>
+            <p>Quibusdam consectetur quam magni culpa aliquid atque laboriosam nemo. Maxime tenetur amet sapiente debitis, vitae sed suscipit voluptates ex iure magni molestias laborum cupiditate quae dolorum dolore minus eaque nam!</p>
+            <button>Buy now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>Food item - 9</h3>
+            <p>price- /0900</p>
+            <p>Reiciendis officia iste praesentium nulla consectetur quod nostrum, asperiores repudiandae qui atque. Suscipit modi veritatis at. Accusamus corporis ut libero cum impedit perferendis, sequi rerum, voluptate amet eveniet neque aspernatur.</p>
+            <button>Buy now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>Food item - 10</h3>
+            <p>price- /1000</p>
+            <p>Nemo possimus a iusto doloribus assumenda, placeat dignissimos illo id sit harum exercitationem officiis quisquam eligendi fugiat dicta doloremque nostrum perspiciatis praesentium atque quidem culpa magnam voluptatibus. Vero, aut quod.</p>
+            <button>Buy now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>Food item - 11</h3>
+            <p>price- /1100</p>
+            <p>Vitae doloribus praesentium esse reiciendis illo quia odit perspiciatis repellendus temporibus? Sequi reiciendis accusamus, optio sunt earum quo. Totam obcaecati doloribus laudantium sed saepe eveniet enim blanditiis sunt illo. Odit.</p>
+            <button>Buy now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.avif" alt="">
+            <h3>Food item - 12</h3>
+            <p>price- /1200</p>
+            <p>Dolores ipsam impedit pariatur error deserunt exercitationem quaerat nisi eum magnam veritatis neque rerum molestiae placeat tempore corrupti vero nesciunt, incidunt porro quasi? Beatae sint ut accusantium! Quibusdam, quaerat officiis.</p>
+            <button>Buy now</button>
+        </div>
+    </div>
+</body>
+</html>
